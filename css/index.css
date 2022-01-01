@@ -1,8 +1,11 @@
+
 .header {
     position: sticky;
     top:0;
 }
 body {
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
     height: 800px;
 }
 
@@ -13,3 +16,8 @@ body {
 table tbody tr {
     display: none;
 }
+
+thead {
+    background-color: #04AA6D;
+    color: white;
+  }
