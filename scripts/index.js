@@ -1,4 +1,4 @@
-d3.csv("BlackLightProject/assets/MyCSV.csv", (data)=>{
+d3.csv("assets/MyCSV.csv", (data)=>{
   showTable(data)
 });
 
